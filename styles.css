@@ -1,9 +1,9 @@
-.title {
+.main-content__title {
   font-family: 'PT Serif', serif;
   font-size: 50px;
 }
 
-.text {
+.main-content__description {
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
 }
