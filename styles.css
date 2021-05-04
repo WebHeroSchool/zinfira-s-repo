@@ -8,16 +8,36 @@ body {
 }
 
 .header {
-  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  width: 190px;
-  height: 35px;
-  /* font: bold 24px/31px pt_serif, arial, helvetica, sans-serif; */
-  background: url('img/logo.svg');
+  position: relative;
+  padding: 40px 0;
+  padding-left: 44px;
+  font: bold 24px/31px 'pt_serifbold', Arial, Helvetica, sans-serif;
+}
+
+.logo__circle {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  opacity: .7;
+}
+
+.logo__circle_color_dark-blue {
+  background: #0056EC;
+}
+
+.logo__circle_color_blue {
+  left: 8px;
+  top: 56%;
+  background: #C8DBFB;
 }
 
 .menu {
@@ -26,6 +46,7 @@ body {
 }
 
 .menu__item {
+  font: normal 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
   padding: 0 13px;
 }
 
@@ -45,14 +66,16 @@ body {
 }
 
 .main-content__title {
-  font-family: 'PT Serif', serif;
-  font-size: 50px;
+  font: bold 50px/85px 'pt_serifbold', Arial, Helvetica, sans-serif;
 }
 
 .main-content__description {
-  font-family: 'Roboto', sans-serif;
-  font-size: 18px;
+  font: normal 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
   padding-bottom: 23px;
+}
+
+.main-content__button {
+  font: normal 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
 }
 
 .image-content__image {
