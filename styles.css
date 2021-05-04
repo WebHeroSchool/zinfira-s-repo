@@ -8,12 +8,16 @@ body {
 }
 
 .header {
+  padding: 40px 0;
   display: flex;
   justify-content: space-between;
 }
 
 .logo {
-  padding: 40px 0;
+  width: 190px;
+  height: 35px;
+  /* font: bold 24px/31px pt_serif, arial, helvetica, sans-serif; */
+  background: url('img/logo.svg');
 }
 
 .menu {
