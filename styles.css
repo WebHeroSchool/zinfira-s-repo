@@ -14,11 +14,24 @@ body {
   padding-top: 32px;
 }
 
+.hamburger-menu {
+  display: none;
+}
+
 .logo {
   position: relative;
   padding: 31px 0;
   padding-left: 45px;
   font: bold 24px/31px 'pt_serifbold', Arial, Helvetica, sans-serif;
+}
+
+@keyframes move {
+  0% {
+    transform: translate3d(0, -50px, 0);
+  }
+  50% {
+    transform: translate3d(0, 10px, 0);
+  }
 }
 
 .logo__circle {
@@ -34,12 +47,16 @@ body {
 
 .logo__circle_color_dark-blue {
   background: #0056EC;
+  animation-name: move;
+  animation-duration: 2.5s;
 }
 
 .logo__circle_color_blue {
   left: 8px;
   top: 56%;
   background: #C8DBFB;
+  animation-name: move;
+  animation-duration: 3s;
 }
 
 .menu {
