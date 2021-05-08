@@ -141,7 +141,7 @@ body {
 
 .main__description {
   margin: 0 22% 42px 0;
-  font: 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
+  font: 22px/26px 'robotomedium', Arial, Helvetica, sans-serif;
 }
 
 .main__button {
@@ -182,7 +182,7 @@ body {
   }
 
   .main__description {
-    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
     letter-spacing: 0.1px;
   }
 }
@@ -203,7 +203,7 @@ body {
 
   .logo {
     padding-top: 31px;
-    padding-left: 44px;
+    padding-left: 55px;
   }
 
   .logo__circle {
@@ -216,7 +216,7 @@ body {
 
   .menu__item {
     margin-right: 27px;
-    font: 500 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 14px/17px 'robotomedium', Arial, Helvetica, sans-serif;
   }
 
   .menu:last-child {
@@ -235,15 +235,44 @@ body {
   }
 
   .main__description {
-    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
     letter-spacing: 0.1px;
   }
 
   .main__button {
-    font: 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 14px/17px 'robotomedium', Arial, Helvetica, sans-serif;
     padding: 13px 0px;
     width: 209px;
     text-align: center;
+  }
+}
+
+@media (max-width: 1366px) {
+  .logo {
+    padding-left: 44px;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 0;
+    top: 48%;
+  }
+
+  .logo__circle_color_blue {
+    left: 8px;
+    top: 62%;
+  }
+
+  .menu__item {
+    margin-right: 26px;
+  }
+
+  .main__description {
+    letter-spacing: 0;
+  }
+
+  .main__button {
+    padding: 13px 9px 14px 0;
+    width: 200px;
   }
 }
 
@@ -284,14 +313,10 @@ body {
   .menu__item {
     position: relative;
     margin-right: 27px;
-    font: 500 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 14px/17px 'robotomedium', Arial, Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
-  }
-
-  .menu__item:first-child {
-    margin-right: 25px;
   }
 
   .menu:last-child {
@@ -312,14 +337,13 @@ body {
 
   .main__description {
     margin: 0px 55px 42px 0;
-    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
-    letter-spacing: 0.1px;
+    font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   }
 
   .main__button {
-    font: 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
-    padding: 13px 21px;
-    width: 167px;
+    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
+    padding: 14px 23px 14px 13px;
+    width: 173px;
     text-align: center;
   }
 }
@@ -333,11 +357,11 @@ body {
   .main__description {
     margin: 0 0 30px 0;
     padding: 0px 20px 0 0;
-    font: 500 16px/19px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 16px/19px 'robotomedium', Arial, Helvetica, sans-serif;
   }
 
   .main__button {
-    font: 500 14px/16px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
   }
 }
 
@@ -427,7 +451,7 @@ body {
     display: inline-block;
     margin-bottom: 25px;
     color: #333;
-    font: 500 30px/35px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 30px/35px 'robotomedium', Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
 
@@ -459,6 +483,10 @@ body {
 }
 
 @media (max-width: 515px) {
+  .wrapper {
+    width: 94%;
+  }
+
   .menu {
     display: none;
   }
@@ -468,15 +496,15 @@ body {
   }
 
   .header {
-    margin-bottom: 7px;
-    padding: 16px 8px;
+    margin-bottom: 5px;
+    padding: 13px 7px;
   }
 
   .main {
     text-align: center;
-    padding: 72% 0 0;
-    background-size: 83%;
-    background-position: top center;
+    padding: 72.5% 0 0;
+    background-size: 80%;
+    background-position: 50% 3%;
     width: auto;
   }
 
@@ -487,15 +515,16 @@ body {
   }
 
   .main__description {
-    margin: 26px 0;
-    padding: 2px 37px 0px 43px;
-    font: 500 16px/19px 'robotoregular', Arial, Helvetica, sans-serif;
-    letter-spacing: 0.1px;
+    margin: 25px;
+    padding: 0 27px 0 32px;
+    font: 16px/19px 'robotomedium', Arial, Helvetica, sans-serif;
+    letter-spacing: 0px;
   }
 
   .main__button {
-    padding: 14px 21px;
-    font: 500 14px/16px 'robotoregular', Arial, Helvetica, sans-serif;
+    padding: 14px 25px 14px 17px;
+    width: auto;
+    font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
   }
 
   .logo {
@@ -564,7 +593,7 @@ body {
     display: inline-block;
     margin-bottom: 25px;
     color: #333;
-    font: 500 30px/35px 'robotoregular', Arial, Helvetica, sans-serif;
+    font: 30px/35px 'robotomedium', Arial, Helvetica, sans-serif;
     text-decoration: none;
   }
 
