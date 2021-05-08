@@ -49,11 +49,13 @@ body {
   background: #0056EC;
   animation-name: move;
   animation-duration: 2.5s;
+  left: 6px;
+  top: 54%;
 }
 
 .logo__circle_color_blue {
-  left: 8px;
-  top: 56%;
+  left: 16px;
+  top: 73%;
   background: #C8DBFB;
   animation-name: move;
   animation-duration: 3s;
@@ -69,7 +71,7 @@ body {
 .menu__item {
   position: relative;
   margin-right: 27px;
-  font: 500 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+  font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #000;
   text-decoration: none;
   transition: opacity .5s;
@@ -122,7 +124,7 @@ body {
 
 .main {
   padding: 5% 63% 100% 0;
-  padding-left: 8px;
+  padding-left: 6px;
   background: top right no-repeat url(img/Pic1920.svg);
   background-position: 99.1% 0%;
 }
@@ -138,15 +140,15 @@ body {
 }
 
 .main__description {
-  margin: 0 22% 43px 0;
+  margin: 0 22% 42px 0;
   font: 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  padding: 17px 22px;
+  padding: 17px 23px;
   width: 226px;
-  font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+  font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #fff;
   background: #0056EC;
   text-decoration: none;
