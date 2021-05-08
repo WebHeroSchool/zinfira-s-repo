@@ -125,14 +125,14 @@ body {
 
 .main {
   padding: 5% 63% 100% 0;
-  padding-left: 4px;
+  padding-left: 6px;
   background: top right no-repeat url(img/Pic1920.svg);
   background-position: 99.1% 0%;
 }
 
 .main__title {
-  margin: 0 0 36px 0;
-  padding: 2px 0 1px 0;
+  margin: 0 0 35px 0;
+  padding: 4px 0 1px 0;
   font: 66px/85px 'pt_serifbold', Arial, Helvetica, sans-serif;
 }
 
@@ -142,12 +142,12 @@ body {
 
 .main__description {
   margin: 0 22% 42px 0;
-  font: 22px/26px 'robotomedium', Arial, Helvetica, sans-serif;
+  font: 22px/26px 'robotoregular', Arial, Helvetica, sans-serif;
 }
 
 .main__button {
   display: inline-block;
-  padding: 18px 24px;
+  padding: 18px 23px;
   width: 226px;
   font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #fff;
