@@ -203,12 +203,12 @@ body {
 @media (max-width: 1024px) {
   .wrapper {
     margin: auto;
-    width: 88%;
+    width: 91%;
   }
 
   .header {
-    margin-bottom: 68px;
-    padding-top: 8px;
+    margin-bottom: 92px;
+    padding-top: 0;
   }
 
   .hamburger-menu {
@@ -217,15 +217,28 @@ body {
 
   .logo {
     padding-top: 40px;
+    padding-left: 44px;
+  }
+
+  .logo__circle {
+    transform: translateY(22%);
+  }
+
+  .menu {
+    padding-top: 46px;
   }
 
   .menu__item {
     position: relative;
-    margin-right: 24px;
+    margin-right: 27px;
     font: 500 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
     color: #000;
     text-decoration: none;
     transition: opacity .5s;
+  }
+
+  .menu__item:first-child {
+    margin-right: 25px;
   }
 
   .menu:last-child {
@@ -234,25 +247,26 @@ body {
 
   .main {
     text-align: left;
-    padding: 5% 64% 100% 0;
-    background-size: 50%;
-    background-position: top right;
+    padding: 5% 56% 100% 0;
+    background-size: 55.5%;
+    background-position: 100% 3.5%;
   }
 
   .main__title {
-    margin: 0 0 40px 0;
+    margin: 0 0 38px 0;
     font: 50px/65px 'pt_serifbold', Arial, Helvetica, sans-serif;
   }
 
   .main__description {
-    margin: 0 -100px 41px 0;
+    margin: 0px 55px 42px 0;
     font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
+    letter-spacing: 0.1px;
   }
 
   .main__button {
     font: 14px/17px 'robotoregular', Arial, Helvetica, sans-serif;
-    padding: 16px 21px;
-    width: 209px;
+    padding: 13px 21px;
+    width: 167px;
     text-align: center;
   }
 }
@@ -274,7 +288,7 @@ body {
   }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 515px) {
   .menu {
     display: none;
   }
@@ -299,13 +313,12 @@ body {
   .main__title {
     margin-bottom: 32px;
     font: 30px/39px 'pt_serifbold', Arial, Helvetica, sans-serif;
-    padding-top: 16px;
-    padding-left: 7px;
+    padding: 16px 33px 0 39px;
   }
 
   .main__description {
-    margin: 0 0 25px 0;
-    padding: 0px 37px 0px 43px;
+    margin: 25px 0;
+    padding: 1px 37px 0px 43px;
     font: 500 16px/19px 'robotoregular', Arial, Helvetica, sans-serif;
     letter-spacing: 0.1px;
   }
