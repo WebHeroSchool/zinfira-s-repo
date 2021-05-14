@@ -3,6 +3,7 @@
 
 <head>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Мой первый сайт</title>
   <link rel="stylesheet" href="fonts.css">
   <link rel="stylesheet" href="styles.css">
@@ -14,7 +15,20 @@
       <div class="logo">
         <div class="logo__circle logo__circle_color_dark-blue"></div>
         <div class="logo__circle logo__circle_color_blue"></div>
-        app.creation
+        <span class="logo-text">app.creation</span>
+      </div>
+      <div class="hamburger-menu">
+        <input type="checkbox" id="menu__toggle" />
+        <label class="menu__btn" for="menu__toggle">
+          <span></span>
+        </label>
+        <ul class="menu__box">
+          <li><a class="menu__item" href="#">start</a></li>
+          <li><a class="menu__item" href="#">services</a></li>
+          <li><a class="menu__item" href="#">about</a></li>
+          <li><a class="menu__item" href="#">blog</a></li>
+          <li><a class="menu__item" href="#">contact us</a></li>
+        </ul>
       </div>
       <nav class="menu">
         <a class="menu__item" href="#">start</a>
@@ -24,17 +38,17 @@
         <a class="menu__item" href="#">contact us</a>
       </nav>
     </header>
-
-    <section class="main-section">
-      <main class="main-content">
-        <h1 class="main-content__title">Building an App Without Design Expertise?</h1>
-        <p class="main-content__description">I help tech startups design better digital products without hiring a full-time designer</p>
-        <button class="main-content__button" type="button" name="button">Schedule free consultation</button>
-      </main>
-      <div class="image-content">
-        <img class="image-content__image" src="img/Frame.png" alt="Картинка с людьми">
-      </div>
+    <section class="main">
+      <h1 class="main__title">
+        Building&nbsp;an&nbsp;App
+        <span class="main__title-text_highlight">
+          Without&nbsp;Design Expertise?
+        </span>
+      </h1>
+      <p class="main__description">I help tech startups design better digital products without hiring a full-time designer</p>
+      <a class="main__button" href="#">Schedule free consultation</a>
     </section>
   </div>
 </body>
+
 </html>
