@@ -147,7 +147,7 @@ body {
 
 .main__button {
   display: inline-block;
-  padding: 18px 23px;
+  padding: 18px 24px;
   width: 226px;
   font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
   color: #fff;
@@ -236,7 +236,7 @@ body {
   }
 
   .main__description {
-    font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
+    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
     letter-spacing: 0.1px;
   }
 
@@ -267,12 +267,8 @@ body {
     margin-right: 26px;
   }
 
-  .main__description {
-    letter-spacing: 0;
-  }
-
   .main__button {
-    padding: 13px 9px 14px 0;
+    padding: 12px 9px 14px 0;
     width: 200px;
   }
 }
@@ -338,12 +334,12 @@ body {
 
   .main__description {
     margin: 0px 55px 42px 0;
-    font: 18px/21px 'robotomedium', Arial, Helvetica, sans-serif;
+    font: 18px/21px 'robotoregular', Arial, Helvetica, sans-serif;
   }
 
   .main__button {
     font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
-    padding: 14px 23px 14px 13px;
+    padding: 13px 23px 14px 13px;
     width: 173px;
     text-align: center;
   }
@@ -358,7 +354,7 @@ body {
   .main__description {
     margin: 0 0 30px 0;
     padding: 0px 20px 0 0;
-    font: 16px/19px 'robotomedium', Arial, Helvetica, sans-serif;
+    font: 16px/19px 'robotoregular', Arial, Helvetica, sans-serif;
   }
 
   .main__button {
@@ -522,9 +518,8 @@ body {
 
   .main__description {
     margin: 25px;
-    padding: 0 27px 0 32px;
-    font: 16px/19px 'robotomedium', Arial, Helvetica, sans-serif;
-    letter-spacing: 0px;
+    padding: 0 26px 0 32px;
+    font: 16px/19px 'robotoregular', Arial, Helvetica, sans-serif;
   }
 
   .main__button {
@@ -543,6 +538,16 @@ body {
 
   .logo__circle_color_dark-blue, .logo__circle_color_blue {
     animation: none !important;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 5px;
+    top: 54%;
+  }
+
+  .logo__circle_color_blue {
+    left: 13px;
+    top: 69%;
   }
 
   #menu__toggle {
