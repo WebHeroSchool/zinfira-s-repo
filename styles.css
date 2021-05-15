@@ -14,15 +14,11 @@ body {
   padding-top: 32px;
 }
 
-.hamburger-menu {
-  display: none;
-}
-
 .logo {
   position: relative;
   padding-top: 8px;
   padding-left: 52px;
-  font: bold 24px/31px 'pt_serifbold', Arial, Helvetica, sans-serif;
+  font: 24px/31px 'pt_serifbold', Arial, Helvetica, sans-serif;
 }
 
 @keyframes move {
@@ -60,6 +56,10 @@ body {
   background: #C8DBFB;
   animation-name: move;
   animation-duration: 3s;
+}
+
+.hamburger-menu {
+  display: none;
 }
 
 .menu {
@@ -193,10 +193,6 @@ body {
     width: 68%;
   }
 
-  .hamburger-menu {
-    display: none;
-  }
-
   .header {
     padding-top: 9px;
     margin-bottom: 93px;
@@ -209,6 +205,10 @@ body {
 
   .logo__circle {
     transform: translateY(4%);
+  }
+
+  .hamburger-menu {
+    display: none;
   }
 
   .menu {
@@ -290,10 +290,6 @@ body {
     padding-top: 0;
   }
 
-  .hamburger-menu {
-    display: none;
-  }
-
   .logo {
     padding-top: 40px;
     padding-left: 44px;
@@ -301,6 +297,10 @@ body {
 
   .logo__circle {
     transform: translateY(22%);
+  }
+
+  .hamburger-menu {
+    display: none;
   }
 
   .menu {
@@ -363,20 +363,20 @@ body {
 }
 
 @media (max-width: 768px) {
-  .menu {
-    display: none;
-  }
-
-  .hamburger-menu {
-    display: flex;
-  }
-
   .header {
     margin-bottom: 60px;
   }
 
   .logo-text {
     display: none;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .hamburger-menu {
+    display: flex;
   }
 
   .main {
@@ -489,17 +489,39 @@ body {
     width: 94%;
   }
 
+  .header {
+    margin-bottom: 5px;
+    padding: 13px 7px;
+  }
+
+  .logo {
+    padding-top: 46px;
+  }
+
+  .logo__circle {
+    transform: translateY(-50%);
+  }
+
+  .logo__circle_color_dark-blue, .logo__circle_color_blue {
+    animation: none !important;
+  }
+
+  .logo__circle_color_dark-blue {
+    left: 5px;
+    top: 54%;
+  }
+
+  .logo__circle_color_blue {
+    left: 13px;
+    top: 69%;
+  }
+
   .menu {
     display: none;
   }
 
   .hamburger-menu {
     display: flex;
-  }
-
-  .header {
-    margin-bottom: 5px;
-    padding: 13px 7px;
   }
 
   .main {
@@ -526,28 +548,6 @@ body {
     padding: 14px 25px 14px 17px;
     width: auto;
     font: 14px/16px 'robotomedium', Arial, Helvetica, sans-serif;
-  }
-
-  .logo {
-    padding-top: 46px;
-  }
-
-  .logo__circle {
-    transform: translateY(-50%);
-  }
-
-  .logo__circle_color_dark-blue, .logo__circle_color_blue {
-    animation: none !important;
-  }
-
-  .logo__circle_color_dark-blue {
-    left: 5px;
-    top: 54%;
-  }
-
-  .logo__circle_color_blue {
-    left: 13px;
-    top: 69%;
   }
 
   #menu__toggle {
